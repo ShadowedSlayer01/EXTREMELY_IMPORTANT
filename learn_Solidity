@@ -1,0 +1,6 @@
+if [ -e "SOLIDITY" ]; then
+    echo "Solidity's Directory exists!"
+    exit 1
+else
+    mkdir SOLIDITY
+fi

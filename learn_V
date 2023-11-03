@@ -1,0 +1,6 @@
+if [ -e "V" ]; then
+    echo "V's Directory exists!"
+    exit 1
+else
+    mkdir V
+fi

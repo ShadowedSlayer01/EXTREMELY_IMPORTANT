@@ -1,0 +1,6 @@
+if [ -e "PIET" ]; then
+    echo "Piet's Directory exists!"
+    exit 1
+else
+    mkdir PIET
+fi

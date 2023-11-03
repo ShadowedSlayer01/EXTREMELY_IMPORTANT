@@ -1,0 +1,6 @@
+if [ -e "MACHINECODE" ]; then
+    echo "MachineCode's Directory exists!"
+    exit 1
+else
+    mkdir MACHINECODE
+fi

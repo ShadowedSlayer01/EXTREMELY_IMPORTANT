@@ -1,0 +1,6 @@
+if [ -e "F_SHARP" ]; then
+    echo "F#'s Directory exists!"
+    exit 1
+else
+    mkdir F_SHARP
+fi

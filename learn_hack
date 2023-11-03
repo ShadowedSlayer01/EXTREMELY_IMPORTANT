@@ -1,0 +1,6 @@
+if [ -e "HACK" ]; then
+    echo "Hack's Directory exists!"
+    exit 1
+else
+    mkdir HACK
+fi

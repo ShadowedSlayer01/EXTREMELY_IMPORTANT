@@ -1,0 +1,6 @@
+if [ -e "RUST" ]; then
+    echo "Rust's Directory exists!"
+    exit 1
+else
+    mkdir RUST
+fi

@@ -1,0 +1,6 @@
+if [ -e "SDL" ]; then
+    echo "Sdl's Directory exists!"
+    exit 1
+else
+    mkdir SDL
+fi

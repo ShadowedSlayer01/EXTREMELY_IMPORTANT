@@ -1,0 +1,6 @@
+if [ -e "GO" ]; then
+    echo "Go's Directory exists!"
+    exit 1
+else
+    mkdir GO
+fi

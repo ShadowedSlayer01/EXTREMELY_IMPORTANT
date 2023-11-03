@@ -1,0 +1,6 @@
+if [ -e "QUANTRUM_ELECTRO_DYNAMICS" ]; then
+    echo "Quantrum's Directory exists!"
+    exit 1
+else
+    mkdir QUANTRUM_ELECTRO_DYNAMICS
+fi

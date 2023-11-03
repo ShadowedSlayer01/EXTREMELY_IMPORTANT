@@ -1,0 +1,6 @@
+if [ -e "C_SHARP" ]; then
+    echo "C#'s Directory exists!"
+    exit 1
+else
+    mkdir C_SHARP
+fi

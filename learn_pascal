@@ -1,0 +1,6 @@
+if [ -e "PASCAL" ]; then
+    echo "Pascal's Directory exists!"
+    exit 1
+else
+    mkdir PASCAL
+fi

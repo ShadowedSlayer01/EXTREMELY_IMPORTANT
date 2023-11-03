@@ -1,0 +1,6 @@
+if [ -e "EMOJICODE" ]; then
+    echo "Emojicode's Directory exists!"
+    exit 1
+else
+    mkdir EMOJICODE
+fi

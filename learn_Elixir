@@ -1,0 +1,6 @@
+if [ -e "ELIXIR" ]; then
+    echo "Elixir's Directory exists!"
+    exit 1
+else
+    mkdir ELIXIR
+fi

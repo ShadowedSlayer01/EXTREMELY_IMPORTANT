@@ -1,0 +1,6 @@
+if [ -e "NIM" ]; then
+    echo "Nim's Directory exists!"
+    exit 1
+else
+    mkdir NIM
+fi

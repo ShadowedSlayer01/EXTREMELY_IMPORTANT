@@ -1,0 +1,6 @@
+if [ -e "CLOJURE" ]; then
+    echo "Clojure's Directory exists!"
+    exit 1
+else
+    mkdir CLOJURE
+fi

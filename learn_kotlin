@@ -1,0 +1,6 @@
+if [ -e "KOTLIN" ]; then
+    echo "Kotlin's Directory exists!"
+    exit 1
+else
+    mkdir KOTLIN
+fi

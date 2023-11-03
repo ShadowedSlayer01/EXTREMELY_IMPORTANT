@@ -1,0 +1,6 @@
+if [ -e "PYTHON" ]; then
+    echo "Python's Directory exists!"
+    exit 1
+else
+    mkdir PYTHON
+fi

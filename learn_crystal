@@ -1,0 +1,6 @@
+if [ -e "CRYSTAL" ]; then
+    echo "Crystal's Directory exists!"
+    exit 1
+else
+    mkdir CRYSTAL
+fi

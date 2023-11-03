@@ -1,0 +1,6 @@
+if [ -e "SCALA" ]; then
+    echo "Scala's Directory exists!"
+    exit 1
+else
+    mkdir SCALA
+fi

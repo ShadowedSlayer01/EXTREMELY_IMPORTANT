@@ -1,0 +1,6 @@
+if [ -e "ZIG" ]; then
+    echo "Zig's Directory exists!"
+    exit 1
+else
+    mkdir ZIG
+fi

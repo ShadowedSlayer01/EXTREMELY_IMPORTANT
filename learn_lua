@@ -1,0 +1,6 @@
+if [ -e "LUA" ]; then
+    echo "Lua's Directory exists!"
+    exit 1
+else
+    mkdir LUA
+fi

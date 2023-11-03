@@ -1,0 +1,6 @@
+if [ -e "JAVASCRIPT" ]; then
+    echo "Javascript's Directory exists!"
+    exit 1
+else
+    mkdir JAVASCRIPT
+fi
